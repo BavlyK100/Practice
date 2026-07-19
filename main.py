@@ -1,7 +1,9 @@
-x = input("Enter the value of x: ")
-
-if x == "Hello world":
-    for i in range(5):
-        print(x)
-else:
-    print("Error")
+while True :
+    x = input("Enter the value of x: ").strip().lower()
+    if x == "hello world":
+        for _ in range(5):
+            print(_)
+            print(x)
+        break
+    else:
+        print("Error")
